@@ -32,6 +32,12 @@ const widgetSchema = mongoose.Schema(
     },
     filter: {
       type: String,
+    },
+    description: {
+      type: String,
+    },
+    limit: {
+      type: String,
     }
   },
   {

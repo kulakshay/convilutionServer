@@ -8,6 +8,7 @@ const ApiError = require('../utils/ApiError');
  * @returns {Promise<Widget>}
  */
 const createWidget = async (widgetBody) => {
+  console.log(widgetBody);
   return Widget.create(widgetBody);
 };
 
