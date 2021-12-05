@@ -19,6 +19,10 @@ const dashboardWidgetSchema = mongoose.Schema(
       type: Number,
       required: true,
     },
+    name:{
+      type: String,
+      required: true,
+    },
     widgetId: {
       type: String,
       required: true,
